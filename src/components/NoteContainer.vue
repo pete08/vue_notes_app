@@ -10,12 +10,17 @@
 import NoteSelectors from "./NoteSelectors.vue";
 import NoteEditor from "./NoteEditor.vue";
 
+
+
 export default {
+  
   name: "note-container",
+  
   components: {
     NoteSelectors,
     NoteEditor,
+  },
 
-  }
 };
+
 </script>
