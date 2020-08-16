@@ -1,27 +1,19 @@
 <template>
   <div id="app">
     <Toolbar />
-    <div class="note-container">
-      
-      <div class="note-editor">
-        <p class="note-editor-info">Timestamp here...</p>
-        <textarea class="note-editor-input">
-          First note...
-          
-          Note text here...
-        </textarea>
-      </div>
-    </div>
+    <note-container />
+    
   </div>
 </template>
 <script>
 import Toolbar from "./components/Toolbar.vue";
+import NoteContainer from "./components/NoteContainer.vue";
 
 export default {
   name: 'app',
   components: {
-    Toolbar,
-    NoteSelectors,
+    Toolbar,  //Components should ALWAYS be PascalCase
+    NoteContainer, //Components should ALWAYS be PascalCase  
   }
 
 };
