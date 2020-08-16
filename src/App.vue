@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    
+
     <Toolbar />
     <note-container />
     
   </div>
 </template>
+
 <script>
 import Toolbar from "./components/Toolbar.vue";
 import NoteContainer from "./components/NoteContainer.vue";
@@ -18,8 +19,8 @@ export default {
   }
 
 };
-
 </script>
+
 <style>
 /* RESET */
 * {
