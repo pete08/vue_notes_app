@@ -12,5 +12,5 @@
 <script>
 export default {
   name: "note-editor"
-}
+};
 </script>
