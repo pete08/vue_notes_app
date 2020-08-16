@@ -9,8 +9,5 @@
 <script>
 export default {
   name: "toolbar",
-  components: {
-    Toolbar,
-  }
-}
+};
 </script>
